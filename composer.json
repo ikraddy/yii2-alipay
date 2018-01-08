@@ -1,0 +1,34 @@
+{
+  "name": "ikraddy/yii2-alipay",
+  "type": "yii2-extension",
+  "description": "Yii2 iKraddy Alipay",
+  "keywords": [
+    "yii2",
+	"ikraddy",
+    "yii2-alipay"
+  ],
+  "license": "MIT",
+  "support": {
+    "source": "https://github.com/ikraddy/yii2-alipay"
+  },
+  "authors": [
+    {
+      "name": "iKraddy",
+      "email": "ikraddy@qq.com"
+    }
+  ],
+  "minimum-stability": "stable",
+  "require": {
+    "php": ">=5.4.0",
+    "yiisoft/yii2": "*"
+   
+  },
+  "autoload": {
+    "psr-4": {
+      "ikraddy\\alipay\\": ""
+    }
+  },
+  "config": {
+    "process-timeout": 1800
+  }
+}
